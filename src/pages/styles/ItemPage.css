@@ -1,0 +1,55 @@
+
+
+  /* card style */
+  
+  /* Card container */
+.card {
+  border-radius: 10px;
+  overflow: hidden;  /* Ensures that image and text do not overflow the card's borders */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image container to control the height and position */
+.image-container {
+  position: relative;
+  width: 100%; /* Make sure image container takes full width of its column */
+  height: 100%; /* Allow image to fill the column */
+  overflow: hidden; /* Prevent the image from overflowing its container */
+}
+
+/* Image styles */
+.card-image {
+  width: 100%; /* Ensure image takes full width of the column */
+  height: 100%; /* Ensure image takes full height of the column */
+  object-fit: cover; /* Ensure the image covers the space without stretching */
+  border-radius: 10px; /* Make the image corners rounded */
+}
+
+/* Mobile View (less than 768px) */
+@media (max-width: 767px) {
+  .card-body {
+    padding: 15px;
+  }
+
+  .image-container {
+    height: 200px; /* Set fixed height for the image container on mobile */
+  }
+
+  .card-image {
+    height: 100%; /* Make sure image fits the height */
+    border-radius: 10px;
+  }
+}
+
+/* Tablet and Larger Screens (768px and above) */
+@media (min-width: 768px) {
+  .image-container {
+    height: 100%; /* Set the image container to take full height */
+  }
+
+  .card-image {
+    height: 100%; /* Ensure the image fills the full height */
+  }
+}
+
+
