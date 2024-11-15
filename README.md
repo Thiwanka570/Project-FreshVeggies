@@ -1,70 +1,83 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project: FreshVeggies
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+**FreshVeggies** is an innovative platform designed to empower farmers by enabling them to sell their fresh produce directly to consumers, cutting out the need for middlemen or dealers. This seamless connection between farmers and buyers ensures fair pricing, access to high-quality, fresh produce, and supports sustainable farming practices.
 
-### `npm start`
+Our mission is to create a more equitable and transparent agricultural ecosystem that benefits both farmers and consumers while promoting healthy eating and sustainability.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Direct Sales**: Farmers can list their fresh produce for sale and connect directly with consumers.
+- **Fair Pricing**: By removing middlemen, both farmers and consumers benefit from fair pricing.
+- **Secure Transactions**: Safe and secure payment methods for smooth transactions between buyers and sellers.
+- **Sustainability**: Promotes organic farming and supports environmentally friendly agricultural practices.
+- **User Registration**: Farmers and consumers can create accounts to list items for sale or make purchases.
+- **Responsive Design**: The platform is fully responsive, making it easy to access from mobile and desktop devices.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**: React.js, CSS, React-Bootstrap
+- **Backend**: Spring Boot, MySQL
+- **Database**: MySQL
+- **Authentication**: JWT (JSON Web Token)
+- **Payment Gateway**: Stripe or PayPal (if applicable)
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository**:
+   ```bash
+   [git clone [https://github.com/Thiwanka570/Project-FreshVeggies.git]
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Set up the Frontend**:
+   - Navigate to the frontend directory:
+     ```bash
+     cd fresh-veggies/frontend
+     ```
+   - Install frontend dependencies:
+     ```bash
+     npm install
+     ```
+   - Run the React app:
+     ```bash
+     npm start
+     ```
 
-### `npm run eject`
+3. **Set up the Backend**:
+   - Clone or download the backend code for **Spring Boot**.
+   - Configure the database connection in `src/main/resources/application.properties` with your MySQL credentials.
+   - Run the Spring Boot application:
+     ```bash
+     mvn spring-boot:run
+     ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Access the application**:
+   - Frontend: Open your browser and visit [http://localhost:3000](http://localhost:3000)
+   - Backend: Visit [http://localhost:8080](http://localhost:8080) for the API.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Farmer**: 
+   - Register an account and log in to list fresh produce for sale.
+   - Set prices, upload product images, and manage inventory.
+   - View orders from consumers and manage shipments.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Consumer**: 
+   - Browse the listed fresh produce by categories, search for specific items, and place orders directly from farmers.
+   - Complete secure transactions using the integrated payment gateway.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+We welcome contributions! Feel free to fork the repository, submit issues, or create pull requests. If you are reporting a bug or suggesting a feature, please provide as much detail as possible.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
