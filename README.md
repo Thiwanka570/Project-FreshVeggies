@@ -1,6 +1,3 @@
-Sure! Here's a complete README file for your FreshVeggies project:
-
----
 
 # Project: FreshVeggies
 
@@ -33,7 +30,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/fresh-veggies.git
+   [git clone [https://github.com/Thiwanka570/Project-FreshVeggies.git]
    ```
 
 2. **Set up the Frontend**:
@@ -83,4 +80,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-You can replace the placeholder `https://github.com/your-username/fresh-veggies.git` with your actual GitHub repository URL. Additionally, update or expand the content based on your specific features and configurations.
+
